@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv ="X-UA-Compatible" content ="IE=edge">
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+    
+    <!-- Google fonts cdn -->
+    <link rel ="preconnect" href ="https://fonts.googleapis.com">
+    <link rel ="preconnect" href ="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts Bebas Neue -->
+    <link href ="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel = "stylesheet">
+    <!-- Google Fonts Roborto -->
+    <link href ="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel = "stylesheet" />
+    
+    <!-- owl carosusel -->
+    <link rel ="stylesheet" type ="text/css" href ="css/owl.carousel.css">
+    <!-- owl carosusel Theme-->
+    <link rel ="stylesheet" type ="text/css" href ="css/owl.theme.green.css">
+    <!-- owl carosusel animation effects-->
+    <link rel ="stylesheet" type ="text/css" href ="css/animate.css">
+    <!-- stylesheet -->
+    <link rel ="stylesheet" type ="text/css" href ="css/style.css">
+    <link rel ="stylesheet" type ="text/css" href ="css/owl-css.css">
+    <link rel ="stylesheet" type ="text/css" href ="css/jquery.fancybox.min.css">
+    <link rel ="stylesheet" type ="text/css" href ="css/responsive.css">
+    <title>Check PSD</title>
+</head>
+
+<body>
+<div class = "container">
+<header>
+    
+    <!-- notification bar starts-->
+    <div  class = "notification-bar" id = "notification-bar">
+        <span class = "text">
+        LIVE RACE STREAM FROM GATOR NATIONALS IN SARASOTA, FL /
+        <a href = "#">WATCH NOW</a>
+        </span>
+        <span class = "close-btn" onclick  = "closeTop()">
+        <img  src   = "img/x-mark.png" alt = "Close-Btn" />
+        </span>
+    </div>
+     <!-- notification bar ends-->
+
+    <!-- Logo bar starts -->
+    <div class="logo-bar">
+    <div class="row">
+        
+        <div class="logo">
+            <img src="img/logo.png" alt = "Main-Logo">
+        </div>
+        
+        <div class = "btns">
+            <button><span>Membership</span></button>
+            <button class="active"><span>Account</span></button>
+        </div>
+        <!-- Menu btns -->
+        <button onclick="openMenu()" id="btnOpen" class="menu-btn">
+        <img src = "img/burger-icon.png" alt="Open-menu" />
+        </button>
+        <button onclick =" window.location.reload(); closeMenu()" id="btnClose" class = "menu-btn close">
+        <img src="img/menu-close-icon.png" alt="Close-menu" />
+        </button>
+    
+    </div>
+    </div>
+
+    <!-- Colapse able btns -->
+    <div class = "below-btns">
+        <button>MEMBERSHIP</button>
+        <button class = "active">ACCOUNT</button>
+    </div>
+
+    <!-- menu nav bar -->
+    <div class = "menu-bar" id = "menu-bar">
+    <div class = "row">
+        <!-- na-bar  -->
+        <div class = "nav-bar">
+            <ul>
+            <li><a href = "" class = "active"><span>our tracks</span></a></li>
+            <li><a href = ""><span>find events</span> </a></li>
+            <li><a href = ""><span>track map</span></a></li>
+            <li><a href = ""><span>shop</span></a></li>
+            <li><a href = ""><span>about us</span></a></li>
+            </ul>
+        </div>
+        <!-- form  -->
+        <form  class = "search-box">
+            <input type  = "text" name = "search" id = "search" placeholder = "SEARCH" />
+            <button>
+            <img src = "img/search-icon.png" alt = "search icon" />
+            </button>
+        </form>
+    
+    </div>
+    </div>
+    
+    <!-- header-bottom starts -->
+    <nav class = "header-bottom">
+        <div class = "home-page-text">
+            <span>home page</span>
+        </div>
+        
+        <div class = "reebok-part">
+            <div class = "reebook-logo">
+                <span>Presented by</span>
+                <img src = "img/reebok-logo.png" alt = "Reebok-Logo">
+            </div>
+        </div>
+    </nav>
+           
+</header>
+
+
+
+
+<!-- main slider starts  -->
+ <!-- owl carousel slider code starts -->
+ <div class="owl-carousel-1 owl-carousel owl-theme">
+     <!-- 1st slide / -->
+    <div class="slide">
+        <div class="text">
+            <h1>GET READY FOR NEW ADIDAS BANDS</h1>
+            <p>
+              Adidas tracks all begin with a starting gate and enf with a
+              finish line, but everything in between varies from track to
+              track. Because no two tracks are alike, this action sport keeps
+              you on your toes where you are racing.
+            </p>
+        </div>
+        <div class="video">
+        <img src="img/video-thumbnail-img.png" alt="" />
+        <a data-fancybox href="https://www.youtube.com/watch?v=Z6WqKS9jXJk&ab_channel=Divinector" class="play-btn">
+        <img src="img/play-icon.png" alt="" />
+        </a>
+        </div>
+    </div>
+    <!-- 2nd slide  -->
+    <div class="slide">
+        <div class="text">
+            <h1>GET READY FOR NEW ADIDAS BANDS</h1>
+            <p>
+              Adidas tracks all begin with a starting gate and enf with a
+              finish line, but everything in between varies from track to
+              track. Because no two tracks are alike, this action sport keeps
+              you on your toes where you are racing.
+            </p>
+        </div>
+        <div class="video">
+        <img src="img/video-thumbnail-img.png" alt="" />
+        <a data-fancybox href="https://www.youtube.com/embed/s9r9HlL-ShM?autoplay=1" class="play-btn">
+        <img src="img/play-icon.png" alt="" />
+        </a>
+        </div>
+    </div>
+
+</div>
+
+<!-- owl carousel slider code ends -->
+<!-- main slider ends  -->
+
+
+
+
+<!-- Main part mini-slider and cards starts-->
+<main class = "main-container">
+    <div  class = "warpper">
+    <div  class = "row">
+
+        <!-- left part containe slider and cards -->
+        <div class = "content">
+        
+        <!-- owl carousel slider code starts -->
+        <div class = "owl-carousel-2 owl-carousel owl-theme">
+        <div class = "slide">
+        <div class = "box">
+        <img src= "img/thubnail-slider-img.png" />
+        </div>
+        </div>
+        <div class = "slide">
+        <div class = "box">
+        <img src= "img/thubnail-slider-img.png" />
+        </div>
+        </div>
+        <div class = "slide">
+        <div class = "box">
+        <img src= "img/thubnail-slider-img.png" />
+        </div>
+        </div>
+        <div class = "slide">
+        <div class = "box">
+        <img src   = "img/thubnail-slider-img.png" />
+        </div>
+        </div>
+        <div class= "slide">
+        <div class= "box">
+        <img src= "img/thubnail-slider-img.png" />
+        </div>
+        </div>
+        </div>
+        
+        <!-- Divider beneth the owl carausel -->
+        <div class = "slider-divider"></div>
+
+        
+    <!-- Cards Starts -->
+    <div class = "cards">
+    <div class = "row1">
+        <!-- 1st card  -->
+        <div class = "col">
+        <div class = "post-card">
+        <div class = "image">
+        <img src   = "img/post-img.png" width = "100%" height = "auto" alt = "" />
+        </div>
+     
+        <div class = "texts">
+        <div class = "title">
+        2019 NATIONAL CHAMPIONS CROWNED AT REBOOK
+        </div>
+        <div class = "description">
+        Membership has its perks. Joining ADIDAS means you can race at your local tracks
+        </div>
+        </div>
+        <button>READ MORE</button>
+        </div>
+        </div>
+        <!-- 2nd card  -->
+        <div class = "col">
+        <div class = "post-card">
+        <div class = "image">
+        <img src   = "img/post-img.png" width = "100%" height = "auto" alt = "" />
+        </div>
+        <div class = "texts">
+        <div class = "title">
+        2019 NATIONAL CHAMPIONS CROWNED AT REBOOK
+        </div>
+        <div class = "description">
+        Membership has its perks. Joining ADIDAS means you can race at your local tracks
+        </div>
+        </div>
+        <button>READ MORE</button>
+        </div>
+        </div>
+        <!-- 3rd card  -->
+        <div class = "col">
+        <div class = "post-card">
+        <div class = "image">
+        <img src   = "img/post-img.png" width = "100%" height = "auto" alt = "" />
+        </div>
+        <div class = "texts">
+        <div class = "title">2019 NATIONAL CHAMPIONS</div>
+        <div class = "description">
+        Membership has its perks. Joining ADIDAS means you ca race at your local tracks
+        </div>
+        </div>
+        <button>READ MORE</button>
+        </div>
+        </div>
+    </div>
+    </div>
+                       
+                        
+    <!-- reebok section -->
+    <div class = "reebok-section">
+        <div class = "image">
+        <img src = "img/zig-zag-img-1.png" height = "100%" width = "100%" alt = "" />
+        </div>
+        <div  class = "rs-content">
+        <span class = "title">2019 NATIONAL CHAMPIONS CROWNED AT REBOOK</span>
+        <span class = "desc">
+        Membership has its perks. Joining ADIDAS means you can race at your local tracks
+        </span>
+        </div>
+    </div>
+                      
+    </div> <!-- CONTENET DIV ENDS  -->
+        
+    
+    <!-- right part contain sidebar -->
+    <div class = "side-bar">
+        <div class = "events">
+        <div class = "heading">
+        <span>Events</span>
+        </div>
+        <div  class = "event-list">
+        <!-- 1ST EVENT  -->
+        <div  class = "event">
+        <span class = "sr">1</span>
+        <div  class = "text">
+        <span class = "title">show in usa</span>
+        <span class = "country">USA</span>
+        </div>
+        </div>
+        <!-- 2ND EVENT  -->
+        <div  class = "event">
+        <span class = "sr">2</span>
+        <div  class = "text">
+        <span class = "title">Addidas show in usa</span>
+        <span class = "country">USA</span>
+        </div>
+        </div>
+        <!-- 3RD EVENTS  -->
+        <div  class = "event">
+        <span class = "sr">3</span>
+        <div  class = "text">
+        <span class = "title">Addidas show</span>
+        <span class = "country">USA</span>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </div>
+    </div>
+</main>
+<!-- Main part mini-slider and cards ends-->
+
+
+<!-- contact form starts -->
+<div class = "contact-form">
+    <h1>get in touch with us</h1>
+    <form>
+    <!-- 1st row  -->
+    <div class = "form">
+    <div class = "form-group mt-2">
+    <label for   = "name">name</label>
+    <input type  = "name" name = "name" placeholder = "Enter Name" id = "name" />
+    </div>
+    <div class = "form-group ml-1 mt-2">
+    <label for   = "email">email</label>
+    <input type  = "email" name = "email" placeholder = "Enter Email" id = "email" />
+    </div>
+    </div>
+    <!-- 2nd row -->
+    <div class = "form mt-1 mt-2">
+    <div class = "form-group">
+    <label for   = "name">country</label>
+    <select name  = "country" id = "country">
+    <option value = "pakistan">pakistan</option>
+    <option value = "uk">Egypt</option>
+    <option value = "usa">dubai</option>
+    </select>
+    </div>
+    <div class = "form-group ml-1 mt-2">
+    <label  for   = "email">state</label>
+    <select name  = "country" id = "country">
+    <option value = "pakistan">punjab</option>
+    <option value = "uk">sindh</option>
+    <option value = "usa">kpk</option>
+    </select>
+    </div>
+    </div>
+    <!-- 3rd row gender -->
+    <div class = "form-group mt-1 mt-2">
+    <label for   = "name">gender</label>
+    <div class = "gender-inputs">
+    <div class = "radio">
+    <input id    = "radio-1" name  = "gender" type = "radio" checked />
+    <label for   = "radio-1" class = "radio-label">Male</label>
+    </div>
+    <div class = "radio">
+    <input id = "radio-2" name  = "gender" type = "radio" />
+    <label for = "radio-2" class = "radio-label">Female</label>
+    </div>
+    <div class = "radio">
+    <input id = "radio-3" name = "gender" type = "radio" />
+    <label for = "radio-3" class = "radio-label">Other</label>
+    </div>
+    </div>
+    </div>
+    <!-- 4th row textarea -->
+    <div class = "form-group mt-2">
+    <label for = "message">MESSAGE</label>
+    <textarea name = "message" id = "message" placeholder = "Message" cols = "20" rows = "4"></textarea>
+    </div>
+    <!-- 5th row button -->
+    <div class = "submit-btn mt-1">
+    <button>SUBMIT</button>
+    </div>
+    </form>
+    </div>
+</div>
+
+<!-- footer starts -->
+<footer>
+    <ul class = "footer-nav">
+    <li><a href  = "#">OUR TRACKS</a></li>
+    <li>
+    <div class = "divider"></div>
+    </li>
+    <li><a href = "#">FIND EVENTS</a></li>
+    <li>
+    <div class = "divider"></div>
+    </li>
+    <li><a href = "#">TRACK MAP</a></li>
+    <li>
+    <div class = "divider"></div>
+    </li>
+    <li><a href = "#">SHOP</a></li>
+    <li>
+    <div class = "divider"></div>
+    </li>
+    <li><a href = "#">ABOUT US</a></li>
+    </ul>
+    
+    <ul class = "social-icons">
+    <li>
+    <a href = "#"><img src = "img/facebook-icon.png" alt = "" /></a>
+    </li>
+    <li>
+    <a href = "#"><img src = "img/twitter-icon.png" alt = "" /></a>
+    </li>
+    <li>
+    <a href = "#"><img src = "img/instagram-icon.png" alt = "" /></a>
+    </li>
+    <li>
+    <a href = "#"><img src = "img/linkedin-icon.png" alt = "" /></a>
+    </li>
+    </ul>
+        
+    <div class = "copyright">&copy; copyright 2021 Adidas</div>
+    </footer>
+    <!-- footer ends -->
+    </div>
+    <!-- js file links -->
+    <script src = "js/jquery.min.js"></script>
+    <script src = "js/owl.carousel.min.js"></script>
+    <script src = "js/jquery.fancybox.min.js"></script>
+    <script src = "js/custom.js"></script>
+</body>
+
+</html>

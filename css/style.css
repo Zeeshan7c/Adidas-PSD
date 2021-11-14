@@ -1,0 +1,508 @@
+* {
+  font-family: "Bebas Neue";
+}
+
+.container {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* top bar css starts */
+.notification-bar {
+  background-color: #f9f9f9;
+  height: 60px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification-bar .text {
+  font-weight: 500;
+  font-size: 15px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+.notification-bar .text a {
+  color: #3d8b57;
+  font-family: "Roboto", sans-serif;
+}
+.notification-bar .close-btn {
+  border-radius: 50px;
+  background-color: #3d8b57;
+  cursor: pointer;
+  padding: 4px 8px 2px 8px;
+  margin-right: 30px;
+}
+/* top bar css ends */
+
+/* LOGO-BAR CSS */
+.logo-bar {
+  background: #14422a;
+  height: 60px;
+  padding: 0% 10%;
+}
+.logo-bar .row {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+.logo-bar .row .btns {
+  margin-left: auto;
+}
+.logo-bar .row .menu-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  display: none;
+}
+.logo-bar .row .btns button {
+  color: #fff;
+  background-color: #2e8f4d;
+  border: none;
+  font-size: 22px;
+  width: 150px;
+  height: 40px;
+  margin-left: 12px;
+  transform: skew(-12deg);
+}
+.logo-bar .row .btns button:hover {
+  background: rgba(46, 147, 73, 0.5);
+  cursor: pointer;
+}
+.logo-bar .row .btns button span {
+  display: block;
+  transform: skew(12deg);
+}
+.logo-bar .row .btns .active {
+  background: #215e34;
+}
+.below-btns {
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+.below-btns button {
+  color: white;
+  background: #2d8449;
+  cursor: pointer;
+  border: none;
+  font-size: 22px;
+  padding: 8px 40px;
+  width: 100%;
+}
+.below-btns button.active {
+  margin-left: 3px;
+  background: #215e34;
+  padding: 8px 55px;
+}
+#nav-bar {
+  transition: all 1.2s ease;
+  display: block;
+}
+
+/* MENU BAR CSS */
+.menu-bar {
+  background: #125735;
+  height: 65px;
+  padding: 0% 10%;
+}
+.menu-bar .row {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+.menu-bar .nav-bar ul {
+  padding: 0;
+}
+.menu-bar .nav-bar ul li {
+  display: inline-block;
+}
+.menu-bar .nav-bar ul li a {
+  padding: 17px 36px;
+  text-decoration: none;
+  background: none;
+  color: white;
+  font-size: 22px;
+  white-space: nowrap;
+}
+.menu-bar .nav-bar ul li .active {
+  background-color: #368951;
+  transform: skew(-12deg);
+  display: block;
+}
+.menu-bar .nav-bar li .active span {
+  display: block;
+  transform: skew(12deg);
+}
+.menu-bar .nav-bar ul li a:hover {
+  transition: 1.2s;
+  clip-path: polygon(14px 0%, 100% 0%, calc(100% - 11px) 100%, 0% 100%);
+  background: #227f40;
+}
+.menu-bar .row .search-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  background: #153b30;
+}
+.menu-bar .row .search-box input {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 14px;
+  color: white;
+}
+.menu-bar .row .search-box button {
+  background: none;
+  border: none;
+  padding: 10px 20px 8px 20px;
+  outline: none;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* header-bottom starts */
+.header-bottom {
+  background: #2a8347;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+.header-bottom .home-page-text {
+  font-size: 50px;
+  color: #fff;
+  width: 58%;
+}
+.header-bottom .reebok-part {
+  width: 42%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  clip-path: polygon(28px 0%, 100% 0%, calc(100% - 0px) 100%, 0% 100%);
+}
+.header-bottom .reebook-logo {
+  display: flex;
+  height: 100%;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 90px;
+}
+.header-bottom .reebook-logo span {
+  font-size: 19px;
+  color: #227f40;
+  /* position: relative; */
+  /* left: 40px; */
+}
+/* header-bottom ends */
+
+/* contact-form starts */
+.contact-form {
+  background-color: #125735;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+.contact-form h1 {
+  margin: 0%;
+  font-weight: 200;
+  font-size: 40px;
+}
+.contact-form .form {
+  display: flex;
+  flex-direction: row;
+}
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form .form-group label {
+  font-size: 20px;
+}
+.contact-form .form-group select {
+  font-size: 15px;
+  padding: 9px;
+  text-transform: uppercase;
+  color: gray;
+  width: 280px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+  background: white;
+}
+.contact-form .form .form-group input {
+  font-size: 15px;
+  padding: 10px;
+  color: gray;
+  width: 260px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+  background: white;
+}
+.ml-1 {
+  margin-left: 20px;
+}
+.mt-1 {
+  margin-top: 20px;
+}
+
+.gender-inputs {
+  display: flex;
+}
+.radio {
+  margin: 0.5rem;
+}
+.contact-form .form-group textarea {
+  font-size: 15px;
+  padding: 10px;
+  color: gray;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  outline: none;
+  background: white;
+}
+.contact-form .submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.contact-form .submit-btn button {
+  color: white;
+  background: rgb(0, 59, 35);
+  padding: 8px 70px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+/* contact-form ends */
+
+/* footer starts */
+footer {
+  background-color: #093225;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  color: #fff;
+}
+footer .footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer .footer-nav li {
+  list-style: none;
+}
+footer .footer-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+footer .footer-nav li .divider {
+  height: 80%;
+  transform: rotate(15deg);
+  width: 2px;
+  background: white;
+}
+footer .social-icons {
+  display: flex;
+  position: relative;
+  top: -10px;
+}
+footer .social-icons li {
+  list-style-type: none;
+  padding: 0% 10px;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: -10px;
+  left: 18px;
+}
+/* footer ends */
+
+textarea {
+  resize: vertical;
+}
+
+/*Main part mini-slider and cards css starts*/
+.main-container {
+  background: #073626;
+  padding: 60px 10%;
+  height: auto;
+  overflow: hidden;
+}
+.main-container .warpper {
+  width: auto;
+  height: 100%;
+  /* margin: 0px 10%; */
+}
+.main-container .row {
+  display: flex;
+}
+.main-container .content {
+  width: 73%;
+  height: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.main-container .side-bar {
+  width: 26%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.main-container .side-bar .events {
+  background: #2a8347;
+  color: #fff;
+  margin-top: 10px;
+}
+.main-container .side-bar .heading {
+  background: #05572e;
+  padding: 10px 19px;
+  font-size: 25px;
+}
+.main-container .side-bar .event-list {
+  padding: 0 20px 20px 20px;
+}
+.main-container .side-bar .event-list .event {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.main-container .side-bar .event-list .event .sr {
+  height: 40px;
+  width: 40px;
+  background: white;
+  color: #05572e;
+  font-weight: bold;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container .side-bar .event-list .event .text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: -5px;
+  flex-shrink: initial;
+}
+.main-container .side-bar .event-list .event .title {
+  font-size: 23px;
+  border-bottom: 1px solid #fff;
+}
+.main-container .side-bar .event-list .event .country {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+}
+
+/* Cards style */
+.cards .posts {
+  margin-top: 40px;
+}
+.cards .row1 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.cards .row1 .col {
+  padding-top: 10px;
+  height: auto;
+}
+
+.cards .post-card {
+  height: 100%;
+  margin: 8px;
+  background: #2a8347;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+.cards .post-card .texts {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 17px;
+}
+.cards .post-card .texts .title {
+  font-size: 20px;
+  color: white;
+}
+.cards .post-card .texts .description {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 400;
+  overflow: hidden;
+  color: rgb(211, 211, 211);
+  font-family: "Roboto", sans-serif;
+}
+.cards .post-card button {
+  margin-top: auto;
+  border: none;
+  background: #124e26;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 5px 0;
+  color: white;
+  width: 100%;
+}
+
+.reebok-section {
+  margin-top: 45px;
+  background: #2b8b4b;
+  display: flex;
+  height: 260px;
+  flex-direction: row;
+}
+.reebok-section .image {
+  height: 100%;
+  width: 60%;
+  clip-path: polygon(0px 0%, 100% 0%, calc(100% - 60px) 100%, 0% 100%);
+}
+.reebok-section .rs-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 50px;
+  justify-content: center;
+  color: white;
+}
+.reebok-section .rs-content .title {
+  font-size: 25px;
+  line-height: 1.1;
+}
+.reebok-section .rs-content .desc {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  color: rgb(223, 223, 223);
+}
